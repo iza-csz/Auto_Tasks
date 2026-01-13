@@ -16,12 +16,14 @@ time.sleep(1)
 pyautogui.write(link)
 time.sleep(1)
 pyautogui.press('enter')
-time.sleep(5)
+time.sleep(3)
 
 # clicar em email, digitar email, clicar em senha, digitar senha, clicar em entrar
 
-pyautogui.click(x=536, y=370)
+pyautogui.click(x=601, y=397)
+time.sleep(1)
 pyautogui.write("izadorainteligente@gmail.com")
+time.sleep(1)
 pyautogui.press('tab')
 pyautogui.write("jesusefiel1234@")
 pyautogui.press('tab')
@@ -29,3 +31,4 @@ pyautogui.press('enter')
 time.sleep(5)
 
 # configurar etapas da tarefa
+
