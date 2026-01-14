@@ -36,7 +36,7 @@ print (tabela)
 
 # configurar etapas da tarefa
 for linha in tabela.index:
-    pyautogui.click (x=491, y=284)
+    pyautogui.click (x=484, y=288)
 
     codigo = tabela.loc[linha, "codigo"]
     pyautogui.write(str(codigo))
@@ -54,8 +54,8 @@ for linha in tabela.index:
 
     obs = tabela.loc[linha, "obs"]
     if not pd.isna (obs):
-        pyautogui.write(str(tabela.loc[linha, "obs"]))
-    pyautogui.press("tab")
-    pyautogui.press("enter")
+     pyautogui.write(str(tabela.loc[linha, "obs"]))
+     pyautogui.press("tab")
+     pyautogui.press("enter")
 
-    pyautogui.scroll (4457)
+     pyautogui.scroll (4457)
