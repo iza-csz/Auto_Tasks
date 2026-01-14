@@ -30,5 +30,13 @@ pyautogui.press('tab')
 pyautogui.press('enter')
 time.sleep(5)
 
+# importar base de dasos
+
+import pandas as pd
+tabela = pd.read_csv("produtos.csv")
+print (tabela)
+
 # configurar etapas da tarefa
+for linha in tabela.index:
+
 
